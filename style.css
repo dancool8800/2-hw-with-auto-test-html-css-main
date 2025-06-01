@@ -52,7 +52,7 @@ header span {
 }
 
 .main-title {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
 }
@@ -76,7 +76,8 @@ header span {
 }
 
 .select {
-    background: url('/Vector\ $2$.svg') no-repeat right 15px top 50%;
+    background: url('/Vector\ $2$.svg') right 15px top 50%;
+    background-repeat:no-repeat;
     appearance: none;
     width: 150px;
     height: 36px;
@@ -85,18 +86,18 @@ header span {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     list-style-image: url('/solar_map-arrow-up-bold.svg');
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -141,13 +142,12 @@ table {
 
 th,
 td {
-    padding: 13px;
+    padding: 12px 15px;
     border: 1px solid #95A1BB;
 }
 
 footer {
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding: 26px 0px;
     max-width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.30);

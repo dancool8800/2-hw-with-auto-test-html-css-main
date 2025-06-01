@@ -1,0 +1,161 @@
+/* Общие настройки сброса стандартных стилей браузера */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Базовые шрифты и цвета заданы прямо в теле страницы */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #303030;
+}
+
+/* Анкор ссылки без подчеркивания */
+a {
+    text-decoration: none;
+}
+
+/* Для списков уберем маркеры и отступы */
+ul {
+    list-style: none;
+}
+
+/* Кнопкам убрали стандартные рамки и фон */
+button {
+    border: none;
+    background-color: transparent;
+}
+
+/* Верхний блок header */
+header {
+    max-width: 1440px;
+    height: 70px;
+    background-color: #2965F1;
+}
+
+header span {
+    display: block;
+    padding-top: 23px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+/* Первая секция с информацией */
+.main-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1440px;
+    height: 100vh;
+    background-color: #FAFAFF;
+}
+
+.main-title {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-image {
+    max-width: 715px;
+    height: 508px;
+}
+
+/* Вторая секция с деталями профиля */
+.about-section {
+    max-width: 1440px;
+    height: 883px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.select {
+    background: url('/Vector\ $2$.svg') no-repeat right 15px top 50%;
+    appearance: none;
+    width: 150px;
+    height: 36px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.frameworks-list {
+    list-style-image: url('/solar_map-arrow-up-bold.svg');
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.books-list {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-field {
+    width: 464px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.btn {
+    background-color: #2965F1;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    width: 125px;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+
+.line {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+table {
+    margin-bottom: 100px;
+    width: 300px;
+    height: 196px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+th,
+td {
+    padding: 13px;
+    border: 1px solid #95A1BB;
+}
+
+footer {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    max-width: 1440px;
+    height: 70px;
+    background: rgba(163, 167, 255, 0.30);
+}
+
+.footer-link {
+    color: #2965F1;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+}

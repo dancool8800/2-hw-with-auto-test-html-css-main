@@ -75,9 +75,10 @@ header span {
     padding-bottom: 100px;
 }
 
-.select {
-    background: url('/Vector\ $2$.svg') right 15px top 50%;
+select {
+    background: url('/ep_arrow-down.svg') right 15px top 50%;
     background-repeat:no-repeat;
+    padding-left: 12px;
     appearance: none;
     width: 150px;
     height: 36px;

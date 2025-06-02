@@ -76,7 +76,7 @@ header span {
 }
 
 .select {
-    background: url('/Vector\ $2$.svg');
+    background-image: url('/Vector\ $2$.svg');
     background-repeat:no-repeat;
     appearance: none;
     width: 150px;

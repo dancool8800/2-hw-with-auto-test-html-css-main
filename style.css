@@ -76,7 +76,8 @@ header span {
 }
 
 select {
-    background: url('assets/ep_arrow-down.svg') right 15px top 50%;
+    background: url(https://dancool8800.github.io/2-hw-with-auto-test-html-css-main/assets/ep_arrow-down.svg
+) right 15px top 50%;
     background-repeat:no-repeat;
     padding-left: 12px;
     appearance: none;
@@ -91,7 +92,7 @@ select {
 }
 
 .frameworks-list {
-    list-style-image: url('assets/solar_map-arrow-up-bold.svg');
+    list-style-image: url(https://dancool8800.github.io/2-hw-with-auto-test-html-css-main/assets/solar_map-arrow-up-bold.svg);
     padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
